@@ -16,7 +16,7 @@ export async function POST(req) {
     }
 
     // Use SDXL-base model endpoint from Hugging Face
-    const hfApiUrl = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0";
+    const hfApiUrl = "https://router.huggingface.co/hf-inference/models/stabilityai/stable-diffusion-xl-base-1.0";
 
     const hfResponse = await axios.post(
       hfApiUrl,

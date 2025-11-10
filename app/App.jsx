@@ -81,7 +81,7 @@ function App() {
       <section className="features-section" id="features">
         <div className="section-header">
           <div className="section-badge">Why Choose Us</div>
-          <h2>Instanr Generation</h2>
+          <h2>Instant Generation</h2>
           <p>Input your idea and get a professional-quality short video in seconds — no editing required.</p>
         </div>
         <div className="features-grid">
